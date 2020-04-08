@@ -26,4 +26,6 @@ setup(
     install_requires=requires,
     tests_require=tests_require,
     packages=find_packages(),
+    classifiers=["Programming Language :: Python :: 3 :: Only"],
+
 )
